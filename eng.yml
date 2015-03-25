@@ -1,0 +1,161 @@
+# English (en)
+eng:
+  security_questions:
+    - {id: 1, name: 'What year were you born?'}
+    - {id: 2, name: 'Last four digits of SSN?'}
+    - {id: 3, name: 'What is your father''s middle name?'}
+    - {id: 4, name: 'What was the name of your first school?'}
+    - {id: 5, name: 'Who was your childhood hero?'}
+    - {id: 6, name: 'What is your favorite pastime?'}
+    - {id: 7, name: 'What is your all-time favorite sports team?'}
+    - {id: 8, name: 'What was your high school mascot?'}
+    - {id: 9, name: 'What make was your first car or bike?'}
+    - {id: 10, name: 'What is your pet''s name?'}
+    - {id: 11, name: 'What is your mother''s middle name?'}
+  application:
+    title: Patient Cloud Registration
+    patient_management: 'Patient Management'
+    btn_cancel: Cancel
+    btn_open: Open
+    btn_agree: I agree
+    btn_next: Next
+    btn_continue: Continue
+    btn_launch: Launch
+    required: Required
+  pagination:
+    total_results: Total Result(s)
+    per_page: Per page
+    first: first
+    next: next
+    last: last
+    previous: previous
+    enter_a_valid_page_number: Enter a valid page number.
+  patient_management:
+    choose_study_and_site: Please choose a study and a site.
+    study: Study
+    site: Site
+    invitation_form:
+      add_a_patient_to: Add a patient to
+      subject: Subject
+      no_subjects_available: No subjects available
+      country_language: Country / Language
+      subject_email: Subject email
+      subject_initials: Subject initials
+      btn_add: Add
+    enrollment_grid:
+      headers:
+        added_on: Added on
+        subject: Subject
+        email: Email
+        initials: Initials
+        activation_code: Activation Code
+        status: Status
+      statuses:
+        registered: Registered
+        invited: Invited
+        pending: Pending
+  activation_codes:
+    index:
+      code_heading: Please enter your activation code
+      code_instruction: > 
+        If you have already registered, return to the Patient Cloud App. If you have not registered and
+        do not have an activation code or email invite please contact your provider.
+      validation_error: This code is incorrect. Contact your provider.
+      btn_activate: Activate
+  registration:
+    form_heading: Registration Details
+    welcome:
+      header: Welcome to Patient Cloud
+      welcome_message: >
+        Welcome to Patient Cloud registration. You are only a few steps away from creating your log in credentials
+        and downloading the Patient Cloud app. Take a moment to read through the terms of use and data privacy notice,
+        then click or tap I agree to get started.
+      register_1: Review The Privacy Policy and Terms of Use
+      register_2: Create account information
+      download: Download the Patient Cloud app
+      login: Open Patient Cloud and use your account information to log in
+    terms_of_use:
+      tou_header: Introduction to Medidata Patient Cloud app and Privacy Notice
+    tou_agreement:
+      modal_confirm: Do you agree to the Terms of Use and Data Privacy Notice?
+      modal_cancel: >
+         If you tap 'Cancel', you will not be registered as a study participant for electronic patient reported
+         outcomes and any information you entered will be erased. If you wish to continue the registration process,
+         please tap 'Continue'.
+    email_form: 
+      form_instruction: Enter and confirm your email address in the username field.
+      email_label: Email
+      reenter_label: Re-enter Email
+      validation_error: Enter a valid email.
+      mismatch_error: Your emails do not match.
+      modal_already_registered: >
+        You are already registered as a participant in this study and may not register as another participant. Please
+        inform your healthcare provider.
+    password_form:
+      form_instruction_1: Enter and Confirm a
+      form_instruction_1_bold: Password
+      form_instruction_1_2: of your choosing.
+      
+      ul_1: At least 8 characters long
+      ul_2: At least one upper-case letter
+      ul_3: At least one lower-case letter
+      ul_4: At least one numeric digit
+      password_label: Password
+      reenter_label: Re-enter Password
+      mismatch_error: Your passwords do not match
+      validation_error: Enter a valid password
+    security_question_form:
+      form_instruction: Select a 
+      form_instruction_bold: security question.
+      dropdown_placeholder: Security Question
+      answer_label: Security Answer
+      answer_placeholder: Enter your response to the question
+      btn_create: Create my account
+      modal_error: >
+        Please let your healthcare provider know that your user record could not be registered as a subject 
+        in the study.
+      modal_error_ok: "OK"
+  download:
+    header: >
+      You are now registered as a participant in this study. Last step is to download the Patient Cloud app 
+      and log in.
+    modal_open: Open the patient Cloud app?
+    modal_download: Download the Patient Cloud app from the app store?
+  error:
+    error: Error
+    wrong: Something seems to have gone wrong with this page.
+    helpdesk_html: "For further assistance, please contact the <a href='%{help_desk_url}'>Help Desk</a> or return to the <a href='%{home_button_url}'>Home Page</a>."
+    timeout: Timeout error in the navigation bar.
+    status_403:
+      heading: 403 Access Denied
+      message: The link or URL you used tried to access a page that you are not authorized to see.
+    status_404:
+      heading: 404 Not Found
+      message: The link or URL you used either doesn't exist or you don't have permission to view it.
+    status_422:
+      heading: 422 Unprocessable Entity
+      message: Something went wrong with your request. Please review it and try again.
+    status_500:
+      heading: 500 System Error
+      message: "The link or URL you used resulted in a system error, and we can't display the information you requested."
+    status_:
+      heading: 500 System Error
+      message: "The link or URL you used resulted in a system error, and we can't display the information you requested."
+    status_503:
+      heading: 503 Service Unavailable
+      message: "Service unavailable, please try again later."
+    activation_code_invalid_error:
+      message: "Activation code not found. Please try again."
+    activation_code_backend_error:
+      message: "Internal server error. Please try again later."
+    invalid_subject_id_registration_error:
+      message: "An error occurred and you are unable to register, please contact your provider."
+    existing_email_registration_error:
+      message: "This email has already been registered, please register with a different email."
+    registration_backend_error:
+      message: "Internal server error. Please try again later."
+    no_patient_enrollments_message:
+      message: There are currently no patient enrollments for this study.
+    subject_not_available_message:
+      message: Subject not available. Please try again.
+
